@@ -4,3 +4,13 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+}
