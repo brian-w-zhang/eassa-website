@@ -1,0 +1,53 @@
+.footer {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(156, 8, 8);
+  height: 400px;
+  color: white;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-mail {
+  color: white;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+
+.footer-mail:hover {
+  text-shadow: 0px 0px 8px rgb(255, 174, 0);
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.social-icons img {
+  margin-top: 25px;
+  height: 50px;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.social-icons img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 8px rgb(255, 174, 0));
+}
