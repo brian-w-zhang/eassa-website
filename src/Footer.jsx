@@ -2,6 +2,7 @@ import instagram from './assets/instagram.png';
 import facebook from './assets/facebook.png';
 import discord from './assets/discord.png';
 import dragon_moving from './assets/dragon moving.mp4';
+import mcgill from './assets/mcgill.png';
 
 function Footer() {
   return (
@@ -24,6 +25,14 @@ function Footer() {
             </p>
             <a href="mailto: eassamcgill@gmail.com" className="footer-mail">
               eassamcgill@gmail.com
+            </a>
+            <a
+              href="https://www.mcgill.ca/"
+              className="footer-mcgill"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={mcgill} alt="mcgill" className="footer-mcgill-photo" />
             </a>
           </div>
           <div className="social-icons">

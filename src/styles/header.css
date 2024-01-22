@@ -5,7 +5,6 @@
   justify-content: space-between;
   position: fixed;
   background-color: rgb(156, 8, 8);
-
   top: 0px;
   left: 0px;
   right: 0px;
@@ -29,6 +28,8 @@
   align-items: center;
   cursor: pointer;
   background-color: rgba(255, 0, 0, 0);
+  color: white;
+  text-decoration: none;
 }
 
 .eassa-name {
@@ -38,6 +39,7 @@
     'Lucida Sans', Arial, sans-serif, 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
   background-color: rgba(255, 0, 0, 0);
+  text-decoration: none;
 }
 
 .right-side {
@@ -75,6 +77,7 @@
 
 .topic {
   display: flex;
+  color: white;
   position: relative;
   width: 170px;
   align-items: center;

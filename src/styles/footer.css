@@ -2,7 +2,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgb(255, 29, 29);
+  background-color: rgb(187, 8, 8);
   height: 500px;
   position: relative;
 }
@@ -31,13 +31,13 @@
 
 .footer-text {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 
 .footer-mail {
   color: white;
-  font-size: 25px;
+  font-size: 28px;
   transition: all 0.2s ease;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .social-icons img {
-  margin-top: 30px;
+  margin-top: 0px;
   height: 50px;
   object-fit: cover;
   transition: filter 0.2s ease;
@@ -72,11 +72,22 @@
 }
 
 .dragon-video {
-  opacity: 45%;
+  opacity: 20%;
   object-fit: cover;
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
   position: absolute;
+}
+
+.footer-mcgill-photo {
+  margin: 10px 0px;
+  width: 250px;
+  height: auto;
+  transition: all 0.2s ease;
+}
+
+.footer-mcgill-photo:hover {
+  filter: drop-shadow(0px 0px 8px rgb(255, 174, 0));
 }
