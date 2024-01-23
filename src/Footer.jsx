@@ -50,7 +50,13 @@ function Footer() {
             >
               <img src={facebook} className="facebook-icon" />
             </a>
-            <img src={discord} className="discord-icon" />
+            <a
+              href="https://discord.gg/jky5DaCPta"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={discord} className="discord-icon" />
+            </a>
           </div>
         </div>
       </div>
