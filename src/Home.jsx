@@ -16,7 +16,6 @@ function Home() {
         </div>
 
         <div className="about-us-home">
-          <p className="about-title">Who We Are</p>
           <p className="about-description">
             McGill University&apos;s East Asian Studies Student Association
             (EASSA) is an undergraduate departmental association under the
