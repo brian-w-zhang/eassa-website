@@ -14,11 +14,11 @@ function Home() {
       const aboutSection = aboutSectionRef.current;
       const landSection = landSectionRef.current;
 
-      if (isElementInViewport(aboutSection, 0.8)) {
+      if (isElementInViewport(aboutSection, 0.7)) {
         aboutSection.classList.add('animated');
       }
 
-      if (isElementInViewport(landSection, 0.8)) {
+      if (isElementInViewport(landSection, 0.7)) {
         landSection.classList.add('animated');
       }
     };
