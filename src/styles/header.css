@@ -61,6 +61,8 @@
 
 .right-text {
   position: absolute;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   width: 150px;
   background-color: rgba(0, 0, 255, 0);
