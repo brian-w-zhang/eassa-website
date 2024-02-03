@@ -1,5 +1,6 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
 import landscape1 from '../landscapes/landscape 1.jpg';
+import line from '../assets/linecool.png';
 
 function AboutUs() {
   return (
@@ -9,9 +10,20 @@ function AboutUs() {
       </div>
       <div className="white-overlay"></div>
 
-      <div className="about-us-container">
+      <div className="topic-container">
         <img src={landscape1} className="pages-image" alt="landscape" />
-        <h1 className="about-us-title">About Us</h1>
+        <div className="topic-overlay"></div>
+        <h1 className="topic-title">About Us</h1>
+      </div>
+
+      <div className="border-line-container">
+        <img className="border-line" src={line} alt="border line" />
+      </div>
+
+      <div className="page-content"></div>
+
+      <div className="border-line-container">
+        <img className="border-line" src={line} alt="border line" />
       </div>
     </>
   );

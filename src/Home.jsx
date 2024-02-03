@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
 import home_video from './assets/lanterns.mp4';
 import mcgill from './assets/mcgill.png';
-import line from './assets/orange_gradient.png';
-import reverse_line from './assets/reverse_gradient.png';
+import line from './assets/linecool.png';
+import reverse_line from './assets/linecool.png';
 import dragon_bg from './landscapes/dragon background.jpg';
 
 function Home() {
