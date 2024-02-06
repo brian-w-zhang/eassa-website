@@ -8,9 +8,9 @@ function Academics() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const aboutSection = academicSectionRef.current;
-      if (isElementInViewport(aboutSection, 0.7)) {
-        aboutSection.classList.add('animated');
+      const academicSection = academicSectionRef.current;
+      if (isElementInViewport(academicSection, 0.7)) {
+        academicSection.classList.add('animated');
       }
     };
 
