@@ -55,10 +55,10 @@ function AboutUs() {
         <img className="border-line" src={line} alt="border line" />
       </div>
 
-      <div className="about-us-container">
-        <div className="about-text-section" ref={aboutSectionRef}>
-          <p className="who-we-are-text">Who We Are</p>
-          <p className="about-main-text">
+      <div className="topic-main-container">
+        <div className="topic-main-text-section" ref={aboutSectionRef}>
+          <p className="topic-main-title">Who We Are</p>
+          <p className="topic-main-text">
             We&apos;re a team of undergraduate East Asian Studies students who
             work together on various projects with the goal of bringing together
             and promoting the EAS department. We strive to provide EAS students

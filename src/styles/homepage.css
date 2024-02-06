@@ -56,7 +56,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
   background-color: rgba(255, 255, 255, 0.363);
   position: relative;
 }
@@ -96,7 +95,7 @@
   margin-top: 100px;
   padding-top: 70px;
   padding-bottom: 70px;
-  margin: 0px 100px 30px 100px;
+  margin: 100px 100px 0px 100px;
   border-radius: 100px;
   opacity: 0;
   transform: translateY(30px);
@@ -110,7 +109,6 @@
   text-align: center;
   justify-content: center;
   background-color: rgba(124, 14, 14, 0.664);
-  margin-top: 100px;
   padding-bottom: 70px;
   margin: 100px 100px 100px 100px;
   border-radius: 100px;
@@ -128,16 +126,17 @@
   margin-top: 70px;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  font-size: 55px;
+  font-size: 50px;
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.219);
 }
 
 .land-text {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 40px;
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.219);
   padding: 0px 100px;
+  line-height: 1.5em;
 }
 
 @keyframes slideInUp {
