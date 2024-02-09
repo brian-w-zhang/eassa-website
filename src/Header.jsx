@@ -47,10 +47,10 @@ function Header() {
             {showDropdown && (
               <div className="dropdown-content">
                 <Link to="/our-team" onClick={closeDropdown}>
-                  Our Team{' '}
+                  <p className="dropdown-text">Our Team</p>
                 </Link>
                 <Link to="/constitution" onClick={closeDropdown}>
-                  Constitution
+                  <p className="dropdown-text">Constitution</p>
                 </Link>
               </div>
             )}
