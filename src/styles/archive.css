@@ -48,7 +48,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(124, 14, 14);
-  margin: 100px 30px 100px 200px;
+  margin: 100px 20px 100px 100px;
   border-radius: 30px;
   opacity: 0;
   transform: translateY(30px);
@@ -63,7 +63,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(124, 14, 14);
-  margin: 100px 200px 100px 30px;
+  margin: 100px 100px 100px 20px;
   border-radius: 30px;
   opacity: 0;
   transform: translateY(30px);
@@ -73,12 +73,12 @@
 
 @media screen and (max-width: 1600px) {
   .site-image-container {
-    height: 350px; /* Adjust the height for smaller screens */
+    height: 310px; /* Adjust the height for smaller screens */
   }
   .archive-site-container1 {
-    margin: 100px 30px 100px 100px;
+    margin: 100px 20px 100px 100px;
   }
   .archive-site-container2 {
-    margin: 100px 100px 100px 30px;
+    margin: 100px 100px 100px 20px;
   }
 }
