@@ -1,5 +1,5 @@
 .site-image-container {
-  height: 400px;
+  height: 460px;
   width: 100%;
   overflow: hidden; /* Hide any overflow content */
   border-top-left-radius: 30px;
@@ -31,7 +31,7 @@
 
 .archive-site-container1:hover .site-image,
 .archive-site-container2:hover .site-image {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .archive-grid-container {
@@ -48,7 +48,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(124, 14, 14);
-  margin: 100px 20px 100px 100px;
+  margin: 100px 25px 100px 100px;
   border-radius: 30px;
   opacity: 0;
   transform: translateY(30px);
@@ -63,7 +63,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(124, 14, 14);
-  margin: 100px 100px 100px 20px;
+  margin: 100px 100px 100px 25px;
   border-radius: 30px;
   opacity: 0;
   transform: translateY(30px);
@@ -73,12 +73,12 @@
 
 @media screen and (max-width: 1600px) {
   .site-image-container {
-    height: 310px; /* Adjust the height for smaller screens */
+    height: 360px; /* Adjust the height for smaller screens */
   }
   .archive-site-container1 {
-    margin: 100px 20px 100px 100px;
+    margin: 100px 25px 100px 100px;
   }
   .archive-site-container2 {
-    margin: 100px 100px 100px 20px;
+    margin: 100px 100px 100px 25px;
   }
 }
