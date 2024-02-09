@@ -88,6 +88,7 @@
 }
 
 .topic {
+  position: relative;
   display: flex;
   color: white;
   position: relative;
@@ -95,9 +96,17 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 255, 255, 0);
-  height: 80px;
+  height: 84px;
   padding: 0;
   margin: 0;
+}
+
+.topic-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .topic:hover .border {

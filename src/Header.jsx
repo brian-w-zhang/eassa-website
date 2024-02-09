@@ -1,9 +1,15 @@
 import eassa_logo from './assets/EASSA.png';
 import border from './assets/border.png';
-// import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setShowDropdown(!showDropdown);
+  };
+
   return (
     <>
       <header className="header">
@@ -13,12 +19,24 @@ function Header() {
         </Link>
 
         <div className="right-side">
-          <Link to="/about-us">
-            <div className="topic">
-              <img className="border" src={border} />
-              <h1 className="right-text">About Us</h1>
-            </div>
-          </Link>
+          <div
+            className="topic"
+            onMouseEnter={handleDropdownToggle}
+            onMouseLeave={handleDropdownToggle}
+          >
+            <Link to="/about-us">
+              <div className="topic-link">
+                <h1 className="right-text">About Us</h1>
+                <img className="border" src={border} />
+              </div>
+            </Link>
+            {showDropdown && (
+              <div className="dropdown-content">
+                <Link to="/our-team">Our Team</Link>
+                <Link to="/constitution">Constitution</Link>
+              </div>
+            )}
+          </div>
 
           <Link to="/events">
             <div className="topic">

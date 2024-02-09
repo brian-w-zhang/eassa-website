@@ -7,6 +7,7 @@ import './styles/homepage.css';
 import './styles/footer.css';
 import './styles/pages.css';
 import './styles/archive.css';
+import './styles/dropdown.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
