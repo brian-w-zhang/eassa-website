@@ -1,13 +1,26 @@
 import eassa_logo from './assets/EASSA.png';
 import border from './assets/border.png';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
   const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef(null);
 
-  const handleDropdownToggle = () => {
-    setShowDropdown(!showDropdown);
+  const closeDropdown = () => {
+    setShowDropdown(false);
+  };
+
+  const handleMouseEnter = () => {
+    if (!showDropdown) {
+      setShowDropdown(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (showDropdown && !dropdownRef.current.contains(event.relatedTarget)) {
+      setShowDropdown(false);
+    }
   };
 
   return (
@@ -21,10 +34,11 @@ function Header() {
         <div className="right-side">
           <div
             className="topic"
-            onMouseEnter={handleDropdownToggle}
-            onMouseLeave={handleDropdownToggle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            ref={dropdownRef}
           >
-            <Link to="/about-us">
+            <Link to="/about-us" onClick={closeDropdown}>
               <div className="topic-link">
                 <h1 className="right-text">About Us</h1>
                 <img className="border" src={border} />
@@ -32,8 +46,12 @@ function Header() {
             </Link>
             {showDropdown && (
               <div className="dropdown-content">
-                <Link to="/our-team">Our Team</Link>
-                <Link to="/constitution">Constitution</Link>
+                <Link to="/our-team" onClick={closeDropdown}>
+                  Our Team{' '}
+                </Link>
+                <Link to="/constitution" onClick={closeDropdown}>
+                  Constitution
+                </Link>
               </div>
             )}
           </div>
