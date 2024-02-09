@@ -2,7 +2,7 @@ import dragon_bg from '../landscapes/dragon background.jpg';
 import landscape5 from '../landscapes/landscape 3.jpg';
 import line from '../assets/linecool.png';
 import old_site from '../assets/eassa-old-site.png';
-import older_site from '../assets/eassa-older-site.png';
+import older_site from '../assets/eassa-older-site-crop.png';
 import { useEffect, useRef } from 'react';
 
 function Archives() {
