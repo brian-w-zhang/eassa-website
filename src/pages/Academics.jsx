@@ -57,12 +57,20 @@ function Academics() {
 
       <div className="topic-main-container">
         <div className="topic-main-text-section" ref={academicSectionRef}>
+          <p className="topic-main-title">Academic information</p>
           <p className="topic-main-text">
             Academics are the core of our association so we are dedicating a
             section of our website to keep you in the loop in terms of classes
             and academic initiatives. Here we provide details on current
             academic programs we run, as well as a comprehensive breakdown of
-            the different degree offerings of our department.
+            the different degree offerings of our department. <br></br>{' '}
+            <br></br>
+            We&apos;re currently working hard to gather all the necessary
+            details about our academic programs and initiatives. Please check
+            back soon for updates and insights into the exciting academic
+            opportunities awaiting you. In the meantime, feel free to explore
+            the rest of our website or follow us on social media for the latest
+            news and announcements. Thank you for your patience!
           </p>
         </div>
       </div>
