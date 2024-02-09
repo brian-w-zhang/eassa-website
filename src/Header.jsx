@@ -63,12 +63,29 @@ function Header() {
             </div>
           </Link>
 
-          <Link to="/academics">
-            <div className="topic">
-              <img className="border" src={border} />
-              <h1 className="right-text">Academics</h1>
-            </div>
-          </Link>
+          <div
+            className="topic"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            ref={dropdownRef}
+          >
+            <Link to="/academics" onClick={closeDropdown}>
+              <div className="topic-link">
+                <h1 className="right-text">Academics</h1>
+                <img className="border" src={border} />
+              </div>
+            </Link>
+            {showDropdown && (
+              <div className="dropdown-content">
+                <Link to="/degree-guide" onClick={closeDropdown}>
+                  <p className="dropdown-text">Degree Guide</p>
+                </Link>
+                <Link to="/initiatives" onClick={closeDropdown}>
+                  <p className="dropdown-text">Initiatives</p>
+                </Link>
+              </div>
+            )}
+          </div>
 
           <Link to="/archives">
             <div className="topic">

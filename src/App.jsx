@@ -13,6 +13,8 @@ import OurTeam from './pages/OurTeam.jsx';
 import Constitution from './pages/Constitution.jsx';
 import Events from './pages/Events.jsx';
 import Academics from './pages/Academics.jsx';
+import DegreeGuide from './pages/DegreeGuide.jsx';
+import Initiatives from './pages/Initiatives.jsx';
 import Archives from './pages/Archives.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import ScrollToTop from './ScrollToTop';
@@ -39,6 +41,8 @@ function App() {
         <Route path="/constitution" element={<Constitution />} />
         <Route path="/events" element={<Events />} />
         <Route path="/academics" element={<Academics />} />
+        <Route path="/degree-guide" element={<DegreeGuide />} />
+        <Route path="/initiatives" element={<Initiatives />} />
         <Route path="/archives" element={<Archives />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Route>
