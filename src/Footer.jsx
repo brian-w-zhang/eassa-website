@@ -33,15 +33,6 @@ function Footer() {
             </a>
 
             <a
-              href="https://eassamcgill.files.wordpress.com/2009/11/eassaconst.pdf"
-              className="footer-mail"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Constitution
-            </a>
-
-            <a
               href="https://www.mcgill.ca/"
               className="footer-mcgill"
               target="_blank"

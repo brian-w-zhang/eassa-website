@@ -66,6 +66,49 @@
   /* animation-delay: 0.3s; */
 }
 
+.constitution-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(124, 14, 14, 0.664);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 120px 100px 120px 100px;
+  border-radius: 100px;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.constitution-body-text {
+  color: white;
+  font-size: 20px;
+  padding: 0px 50px;
+  line-height: 1.5em;
+}
+
+.constitution-main-title {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.constitution-title2 {
+  margin-top: 5px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.constitution-subtitle {
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
 .topic-main-container {
   display: flex;
   flex-direction: column;
@@ -89,6 +132,7 @@
 }
 
 .topic-main-text-section.animated,
+.constitution-text.animated,
 .archive-site-container1.animated,
 .archive-site-container2.animated {
   animation: slideInUp 0.6s ease-out forwards;
