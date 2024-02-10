@@ -1,5 +1,5 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
-import landscape4 from '../landscapes/landscape 4.jpg';
+import landscape from '../landscapes/fuji3.jpg';
 import line from '../assets/linecool.png';
 import { useEffect, useRef } from 'react';
 
@@ -46,7 +46,7 @@ function Initiatives() {
       <div className="white-overlay"></div>
 
       <div className="topic-container">
-        <img src={landscape4} className="pages-image" alt="landscape" />
+        <img src={landscape} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Initiatives</h1>
       </div>

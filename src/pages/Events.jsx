@@ -1,5 +1,5 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
-import landscape2 from '../landscapes/landscape 2.jpg';
+import landscape4 from '../landscapes/landscape 4.jpg';
 import line from '../assets/linecool.png';
 import { useEffect, useRef } from 'react';
 
@@ -46,7 +46,7 @@ function Events() {
       <div className="white-overlay"></div>
 
       <div className="topic-container">
-        <img src={landscape2} className="pages-image" alt="landscape" />
+        <img src={landscape4} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Events</h1>
       </div>
