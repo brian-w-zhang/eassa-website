@@ -1,5 +1,5 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
-import landscape2 from '../landscapes/landscape 2.jpg';
+import landscape2 from '../landscapes/fuji2.jpg';
 import line from '../assets/linecool.png';
 import { useEffect, useRef } from 'react';
 
@@ -49,6 +49,7 @@ function Academics() {
         <img src={landscape2} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Academics</h1>
+        <p className="landscape-text">Mount Fuji | Central Honshu, Japan</p>
       </div>
 
       <div className="border-line-container">

@@ -39,6 +39,16 @@
   margin: 0;
 }
 
+.landscape-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 16px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.219);
+}
+
 .topic-overlay {
   position: absolute;
   background-color: rgba(206, 14, 14, 0.466);
@@ -63,7 +73,7 @@
   border-radius: 100px;
   opacity: 0;
   transform: translateY(30px);
-  /* animation-delay: 0.3s; */
+  animation-delay: 0.3s;
 }
 
 .constitution-text {
@@ -79,6 +89,7 @@
   border-radius: 100px;
   opacity: 0;
   transform: translateY(30px);
+  animation-delay: 0.3s;
 }
 
 .constitution-body-text {

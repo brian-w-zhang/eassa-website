@@ -56,6 +56,7 @@ function Archives() {
         <img src={landscape5} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Archives</h1>
+        <p className="landscape-text">Wollyubong | Yeongdong, South Korea</p>
       </div>
 
       <div className="border-line-container">

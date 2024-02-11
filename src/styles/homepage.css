@@ -99,7 +99,7 @@
   border-radius: 100px;
   opacity: 0;
   transform: translateY(30px);
-  /* animation-delay: 0.3s; */
+  animation-delay: 0.3s;
 }
 
 .land-section {
@@ -114,7 +114,7 @@
   border-radius: 100px;
   opacity: 0;
   transform: translateY(100px);
-  /* animation-delay: 0.3s; */
+  animation-delay: 0.3s;
 }
 
 .about-section.animated,

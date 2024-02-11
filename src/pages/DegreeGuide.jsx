@@ -1,5 +1,5 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
-import landscape from '../landscapes/fuji2.jpg';
+import landscape from '../landscapes/fushimi.jpg';
 import line from '../assets/linecool.png';
 import { useEffect, useRef } from 'react';
 
@@ -49,6 +49,7 @@ function DegreeGuide() {
         <img src={landscape} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Degree Guide</h1>
+        <p className="landscape-text">Fushimi Inari Shrine | Kyoto, Japan</p>
       </div>
 
       <div className="border-line-container">

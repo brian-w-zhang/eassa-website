@@ -1,5 +1,5 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
-import landscape from '../landscapes/fuji3.jpg';
+import landscape from '../landscapes/bamboo2.jpg';
 import line from '../assets/linecool.png';
 import { useEffect, useRef } from 'react';
 
@@ -49,6 +49,9 @@ function Initiatives() {
         <img src={landscape} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Initiatives</h1>
+        <p className="landscape-text">
+          Arashiyama Bamboo Forest | Kyoto, Japan
+        </p>
       </div>
 
       <div className="border-line-container">

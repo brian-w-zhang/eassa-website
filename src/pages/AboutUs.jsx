@@ -49,6 +49,7 @@ function AboutUs() {
         <img src={landscape4} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">About Us</h1>
+        <p className="landscape-text">Great Wall of China | Huairou, China</p>
       </div>
 
       <div className="border-line-container">

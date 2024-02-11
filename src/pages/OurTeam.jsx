@@ -1,5 +1,5 @@
 import dragon_bg from '../landscapes/dragon background.jpg';
-import landscape1 from '../landscapes/landscape 1.jpg';
+import landscape1 from '../landscapes/china 3.jpg';
 import line from '../assets/linecool.png';
 import { useEffect, useRef } from 'react';
 
@@ -49,6 +49,7 @@ function OurTeam() {
         <img src={landscape1} className="pages-image" alt="landscape" />
         <div className="topic-overlay"></div>
         <h1 className="topic-title">Our Team</h1>
+        <p className="landscape-text">Wulingyuan | Hunan, China</p>
       </div>
 
       <div className="border-line-container">
