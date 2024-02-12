@@ -1,5 +1,5 @@
 .team-image-container {
-  height: 400px;
+  height: 45vh;
   width: 100%;
   overflow: hidden; /* Hide any overflow content */
   border-top-left-radius: 30px;
@@ -89,10 +89,4 @@
 /* middle */
 .team-container3 {
   margin: 0px;
-}
-
-@media screen and (max-width: 1600px) {
-  .team-image-container {
-    height: 360px; /* Adjust the height for smaller screens */
-  }
 }
