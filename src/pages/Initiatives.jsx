@@ -60,20 +60,19 @@ function Initiatives() {
 
       <div className="topic-main-container">
         <div className="topic-main-text-section" ref={initiativeSectionRef}>
-          <p className="topic-main-title">Academic information</p>
+          <p className="topic-main-title">Academic Initiatives</p>
           <p className="topic-main-text">
-            Academics are the core of our association so we are dedicating a
-            section of our website to keep you in the loop in terms of classes
-            and academic initiatives. Here we provide details on current
-            academic programs we run, as well as a comprehensive breakdown of
-            the different degree offerings of our department. <br></br>{' '}
-            <br></br>
-            We&apos;re currently working hard to gather all the necessary
-            details about our academic programs and initiatives. Please check
-            back soon for updates and insights into the exciting academic
-            opportunities awaiting you. In the meantime, feel free to explore
-            the rest of our website or follow us on social media for the latest
-            news and announcements. Thank you for your patience!
+            We&apos;re excited to announce that East Asian Studies at McGill is
+            currently working on some groundbreaking academic initiatives that
+            will further enhance our students&apos; learning experiences and
+            broaden their perspectives on the rich cultures and histories of
+            Asia. While details are still being finalized, we can&apos;t wait to
+            unveil these initiatives, which will offer unique opportunities for
+            interdisciplinary exploration, experiential learning, and
+            cross-cultural engagement. Stay tuned for updates as we prepare to
+            launch these exciting new endeavors that will undoubtedly enrich our
+            academic community and empower our students to become global leaders
+            in East Asian studies and beyond.
           </p>
         </div>
       </div>

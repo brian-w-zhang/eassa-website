@@ -8,11 +8,17 @@ import { useEffect, useRef } from 'react';
 function Archives() {
   const firstArchiveSectionRef = useRef(null);
   const secondArchiveSectionRef = useRef(null);
+  const textSectionRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
       const firstArchiveSection = firstArchiveSectionRef.current;
       const secondArchiveSection = secondArchiveSectionRef.current;
+      const textSection = textSectionRef.current;
+
+      if (isElementInViewport(textSection, 0.7)) {
+        textSection.classList.add('animated');
+      }
       if (isElementInViewport(firstArchiveSection, 0.7)) {
         firstArchiveSection.classList.add('animated');
       }
@@ -61,6 +67,19 @@ function Archives() {
 
       <div className="border-line-container">
         <img className="border-line" src={line} alt="border line" />
+      </div>
+
+      <div className="topic-main-container">
+        <div className="topic-main-text-section" ref={textSectionRef}>
+          <p className="topic-main-title">Our History</p>
+          <p className="topic-main-text">
+            Explore the EASSA Archive, featuring our past websites: one from
+            2008-2014 and another from 2014-2024. Witness the evolution of our
+            online presence over the years, from simple layouts to advanced
+            multimedia. Look through our digital history and see how we&apos;ve
+            grown and adapted over time.
+          </p>
+        </div>
       </div>
 
       <div className="archive-grid-container">

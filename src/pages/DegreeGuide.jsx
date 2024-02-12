@@ -58,20 +58,24 @@ function DegreeGuide() {
 
       <div className="topic-main-container">
         <div className="topic-main-text-section" ref={guideSectionRef}>
-          <p className="topic-main-title">Academic information</p>
+          <p className="topic-main-title">Honours East Asian Studies</p>
           <p className="topic-main-text">
-            Academics are the core of our association so we are dedicating a
-            section of our website to keep you in the loop in terms of classes
-            and academic initiatives. Here we provide details on current
-            academic programs we run, as well as a comprehensive breakdown of
-            the different degree offerings of our department. <br></br>{' '}
+            Introducing our comprehensive Degree Guide for East Asian Studies at
+            McGill! This invaluable resource provides essential information for
+            students interested in pursuing a minor, major, or graduate degree
+            in East Asian Studies. Inside, you`&apos;ll find detailed
+            descriptions of program requirements, course offerings, plus
+            opportunities for experiential learning, studying abroad, and
+            research.
             <br></br>
-            We&apos;re currently working hard to gather all the necessary
-            details about our academic programs and initiatives. Please check
-            back soon for updates and insights into the exciting academic
-            opportunities awaiting you. In the meantime, feel free to explore
-            the rest of our website or follow us on social media for the latest
-            news and announcements. Thank you for your patience!
+            <br></br>
+            Stay tuned for updates as we continue to enhance the Degree Guide
+            with additional resources, including career pathways, alumni
+            testimonials, and profiles of recent research projects. Whether
+            you`&apos;re just beginning your academic journey or seeking to
+            further your expertise in East Asian cultures and languages, our
+            Degree Guide is your roadmap to success. Watch this space for more
+            updates coming soon!
           </p>
         </div>
       </div>

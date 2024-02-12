@@ -8,6 +8,7 @@ import './styles/footer.css';
 import './styles/pages.css';
 import './styles/archive.css';
 import './styles/dropdown.css';
+import './styles/team.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -38,8 +38,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  background-color: rgba(124, 14, 14, 0.664);
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -50,7 +49,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(124, 14, 14);
-  margin: 100px 25px 100px 100px;
+  margin: 0px 25px 100px 100px;
   border-radius: 30px;
   opacity: 0;
   transform: translateY(30px);
@@ -65,7 +64,7 @@
   text-align: center;
   justify-content: center;
   background-color: rgb(124, 14, 14);
-  margin: 100px 100px 100px 25px;
+  margin: 0px 100px 100px 25px;
   border-radius: 30px;
   opacity: 0;
   transform: translateY(30px);
@@ -78,9 +77,9 @@
     height: 360px; /* Adjust the height for smaller screens */
   }
   .archive-site-container1 {
-    margin: 100px 25px 100px 100px;
+    margin: 0px 25px 100px 100px;
   }
   .archive-site-container2 {
-    margin: 100px 100px 100px 25px;
+    margin: 0px 100px 100px 25px;
   }
 }
