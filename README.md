@@ -1,5 +1,7 @@
 # McGill University East Asian Studies Department Website
 
+![image](https://github.com/brian-w-zhang/eassa-website/assets/152770271/cff0356a-7177-4a67-be69-4a73339a709b)
+
 Welcome to the GitHub repository for the McGill University East Asian Studies (EAS) Department website!
 Check it out here: https://eassamcgill.netlify.app/
 
