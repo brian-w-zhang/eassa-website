@@ -150,7 +150,9 @@
 .team-container1.animated,
 .team-container2.animated,
 .team-container3.animated,
-.team-container4.animated {
+.team-container4.animated,
+.form-container.animated,
+.contact-video-container.animated {
   animation: slideInUp 0.6s ease-out forwards;
 }
 

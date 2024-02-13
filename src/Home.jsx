@@ -54,7 +54,7 @@ function Home() {
           <img className="dragon-background" src={dragon_bg} />
         </div>
 
-        <div className="video-container">
+        <div className="home-video-container">
           <div className="overlay"></div>
           <video className="home-video" src={home_video} autoPlay loop muted />
           <div className="home-text">
