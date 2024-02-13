@@ -1,7 +1,7 @@
 # McGill University East Asian Studies Department Website
 
 Welcome to the GitHub repository for the McGill University East Asian Studies (EAS) Department website!
-Check it out here: https://eassamcgill.netlify.app/about-us
+Check it out here: https://eassamcgill.netlify.app/
 
 This website was developed by me for a department of 250+ students, 20+ professors, and a team of undergraduate students passionate about promoting and supporting the EAS department at McGill University.
 
