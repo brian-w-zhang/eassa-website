@@ -9,6 +9,7 @@ import './styles/pages.css';
 import './styles/archive.css';
 import './styles/dropdown.css';
 import './styles/team.css';
+import './styles/contact.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
